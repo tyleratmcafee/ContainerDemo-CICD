@@ -6,7 +6,7 @@
       "Type": "AWS::S3::Bucket",
       "Properties": {
         "BucketName": "mydesignbucket",
-        "AccessControl": "Private",
+        "AccessControl": "PublicReadWrite",
         "BucketEncryption": {
           "ServerSideEncryptionConfiguration": [
             {
@@ -32,9 +32,9 @@
           ]
         },
         "PublicAccessBlockConfiguration": {
-          "BlockPublicAcls": false,
-          "BlockPublicPolicy": false,
-          "IgnorePublicAcls": false,
+          "BlockPublicAcls": true,
+          "BlockPublicPolicy": true,
+          "IgnorePublicAcls": true,
           "RestrictPublicBuckets": false
         },
         "Tags": [
