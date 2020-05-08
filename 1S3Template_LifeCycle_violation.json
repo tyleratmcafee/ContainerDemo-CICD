@@ -35,7 +35,7 @@
           "BlockPublicAcls": false,
           "BlockPublicPolicy": false,
           "IgnorePublicAcls": false,
-          "RestrictPublicBuckets": true
+          "RestrictPublicBuckets": false
         },
         "Tags": [
           {
