@@ -32,9 +32,9 @@
           ]
         },
         "PublicAccessBlockConfiguration": {
-          "BlockPublicAcls": false,
-          "BlockPublicPolicy": false,
-          "IgnorePublicAcls": false,
+          "BlockPublicAcls": true,
+          "BlockPublicPolicy": true,
+          "IgnorePublicAcls": true,
           "RestrictPublicBuckets": false
         },
         "Tags": [
